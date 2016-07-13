@@ -1,0 +1,30 @@
+.request-form {
+    display: flex;
+}
+
+.request-form div {
+    margin: 1em;
+}
+
+.request-form div:first-child {
+    margin-left: 0;
+}
+
+.request-form div:last-child {
+    margin-right: 0;
+}
+
+.request-form .input-wrapper {
+    display: flex;
+    flex-direction: column;
+    flex-grow: 1;
+}
+
+.request-form .select-wrapper {
+    display: flex;
+    flex-direction: column;
+}
+
+.request-form .input-wrapper input {
+    width: 100%;
+}
